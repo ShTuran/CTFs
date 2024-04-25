@@ -1,0 +1,134 @@
+# Nmap 7.94SVN scan initiated Thu Apr 25 06:12:05 2024 as: nmap -vv -T4 -A -p- -Pn -oN nmap.txt 10.10.14.209
+Warning: 10.10.14.209 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.14.209
+Host is up, received user-set (0.11s latency).
+Scanned at 2024-04-25 06:12:05 EDT for 1061s
+Not shown: 65471 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE       REASON      VERSION
+22/tcp    open     ssh           syn-ack     OpenSSH 7.2p2 Ubuntu 4ubuntu2.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 db:45:cb:be:4a:8b:71:f8:e9:31:42:ae:ff:f8:45:e4 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZXasCfWSXQ9lYiKbTNkPs0T+wFym2lZy229LllhY6iDLrjm7LIkhCcrlgnJQtLxl5NPhlHNVmwhlkcPPiAHwluhMVE5xKihQj3i+Ucx2IwiFvfmCz4AKsWlR6N8IZe55Ltw0lcH9ykuKZddg81X85EVsNbMacJNjjyxAtwQmJt1F5kB1B2ixgjLLOyNWafC5g1h6XbEgB2wiSRJ5UA8rOZaF28YcDVo0MQhsKpQG/5oPmQUsIeJTUA/XkoWCjvXZqHwv8XInQLQu3VXKgv735G+CJaKzplh7FZyXju8ViDSAY8gdhqpJommYxzqu9s1M31cmFg2fT5V1z9s4DP/vd
+|   256 09:b9:b9:1c:e0:bf:0e:1c:6f:7f:fe:8e:5f:20:1b:ce (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBP0SXJpgwPf/e9AT9ri/dlAnkob4PqzMjl2Q9lZIVIXeEFJ9sfRkC+tgSjk9PwK0DUO3JU27pmtAkDL4Mtv9eZw=
+|   256 a5:68:2b:22:5f:98:4a:62:21:3d:a2:e2:c5:a9:f7:c2 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAzy8ZacWXbPGeqtuiJCnPP0LYZYZlMj5D1ZY9ldg1wU
+80/tcp    open     http          syn-ack     Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+139/tcp   open     netbios-ssn   syn-ack     Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp   open     netbios-ssn   syn-ack     Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+919/tcp   filtered unknown       no-response
+1320/tcp  filtered amx-axbnet    no-response
+2406/tcp  filtered jediserver    no-response
+2481/tcp  filtered giop          no-response
+3224/tcp  filtered aes-discovery no-response
+4688/tcp  filtered mobile-p2p    no-response
+5766/tcp  filtered openmailns    no-response
+5959/tcp  filtered unknown       no-response
+8009/tcp  open     ajp13         syn-ack     Apache Jserv (Protocol v1.3)
+| ajp-methods: 
+|_  Supported methods: GET HEAD POST OPTIONS
+8080/tcp  open     http          syn-ack     Apache Tomcat 9.0.7
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-favicon: Apache Tomcat
+|_http-title: Apache Tomcat/9.0.7
+10421/tcp filtered unknown       no-response
+10432/tcp filtered unknown       no-response
+11140/tcp filtered unknown       no-response
+13905/tcp filtered unknown       no-response
+14109/tcp filtered unknown       no-response
+17462/tcp filtered unknown       no-response
+19723/tcp filtered unknown       no-response
+20457/tcp filtered unknown       no-response
+20561/tcp filtered unknown       no-response
+21446/tcp filtered unknown       no-response
+21983/tcp filtered unknown       no-response
+26850/tcp filtered unknown       no-response
+27650/tcp filtered unknown       no-response
+28003/tcp filtered unknown       no-response
+29708/tcp filtered unknown       no-response
+30879/tcp filtered unknown       no-response
+32340/tcp filtered unknown       no-response
+34408/tcp filtered unknown       no-response
+34426/tcp filtered unknown       no-response
+35578/tcp filtered unknown       no-response
+35821/tcp filtered unknown       no-response
+35824/tcp filtered unknown       no-response
+40613/tcp filtered unknown       no-response
+40948/tcp filtered unknown       no-response
+41253/tcp filtered unknown       no-response
+41974/tcp filtered unknown       no-response
+41977/tcp filtered unknown       no-response
+42746/tcp filtered unknown       no-response
+42954/tcp filtered unknown       no-response
+45182/tcp filtered unknown       no-response
+46390/tcp filtered unknown       no-response
+48938/tcp filtered unknown       no-response
+49173/tcp filtered unknown       no-response
+49306/tcp filtered unknown       no-response
+49556/tcp filtered unknown       no-response
+49570/tcp filtered unknown       no-response
+51563/tcp filtered unknown       no-response
+54735/tcp filtered unknown       no-response
+54894/tcp filtered unknown       no-response
+55049/tcp filtered unknown       no-response
+55314/tcp filtered unknown       no-response
+55376/tcp filtered unknown       no-response
+56689/tcp filtered unknown       no-response
+58036/tcp filtered unknown       no-response
+58505/tcp filtered unknown       no-response
+59220/tcp filtered unknown       no-response
+60013/tcp filtered unknown       no-response
+61134/tcp filtered unknown       no-response
+64290/tcp filtered unknown       no-response
+64614/tcp filtered unknown       no-response
+Service Info: Host: BASIC2; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb2-time: 
+|   date: 2024-04-25T10:29:42
+|_  start_date: N/A
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+|   Computer name: basic2
+|   NetBIOS computer name: BASIC2\x00
+|   Domain name: \x00
+|   FQDN: basic2
+|_  System time: 2024-04-25T06:29:43-04:00
+|_clock-skew: mean: 1h20m01s, deviation: 2h18m34s, median: 0s
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 26292/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 42343/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 51889/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 3917/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| nbstat: NetBIOS name: BASIC2, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   BASIC2<00>           Flags: <unique><active>
+|   BASIC2<03>           Flags: <unique><active>
+|   BASIC2<20>           Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WORKGROUP<1d>        Flags: <unique><active>
+|   WORKGROUP<1e>        Flags: <group><active>
+| Statistics:
+|   00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+|   00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+|_  00:00:00:00:00:00:00:00:00:00:00:00:00:00
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr 25 06:29:46 2024 -- 1 IP address (1 host up) scanned in 1060.79 seconds
