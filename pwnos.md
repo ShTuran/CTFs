@@ -99,9 +99,18 @@ the /var directory and one of them in /var/www directory. The one which in
 Additional vulnerabilites:
 - 10.10.10.100/blog has xss in the `search`.
 
+  
+![Screenshot_2024-05-04_04_06_55](https://github.com/ShTuran/CTFs/assets/111232034/196f2123-cd3d-49d1-8744-c58831176be2)
+
+
+
 - Simple PHP Blog 0.4.0 is vulnerable to file upload when I `search PHP
 Blog 0.4.0` I got the meterpreter shell but I could not be able to escelate the
 priveleges from there.
+
+![ms](https://github.com/ShTuran/CTFs/assets/111232034/c8efdfa2-793d-4ed5-84f0-66e84518dfa9)
+
+
 
 - This module combines three separate issues within The Simple PHP
 Blog (<= 0.4.0) application to upload arbitrary data and thus execute a shell.
