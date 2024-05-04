@@ -74,6 +74,9 @@ the /var directory and one of them in /var/www directory. The one which in
 /var directory was containing the root password.
 
 
+![root](https://github.com/ShTuran/CTFs/assets/111232034/cc371ab3-dd84-473c-aff9-d379aff3435b)
+
+
 Additional vulnerabilites:
 - 10.10.10.100/blog has xss in the `search`.
 
