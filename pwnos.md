@@ -112,5 +112,4 @@ the blogger to prevent an authenticated user from uploading any file type.
 The third vulnerability occurs within the blog comment functionality,
 allowing arbitrary files to be deleted.
 Reference of above text
-https://www.rapid7.com/db/modules/exploit/unix/webapp/sphpblog_file_upl
-oad/
+https://www.rapid7.com/db/modules/exploit/unix/webapp/sphpblog_file_upload/
