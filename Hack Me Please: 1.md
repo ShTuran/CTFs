@@ -21,7 +21,7 @@ After that, I enumerated subdomains with gobuster:
 As a first look, I did not check any of them – which is my bad.
 
 
-# I tried to find any vulnerability with nikto:
+I tried to find any vulnerability with nikto:
 
  ![nikto](https://github.com/ShTuran/CTFs/assets/111232034/0406ea60-eb1e-4574-abff-4b3456be2c55)
 
