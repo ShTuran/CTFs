@@ -6,7 +6,7 @@
 # Reported by : Shirinov Turan
 
 
-## Nmap enumeration result:
+Nmap enumeration result:
  
 3 ports are open: 80 – 3306 – 33060
 
