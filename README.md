@@ -1,5 +1,5 @@
 # CTF challenges
 
-I am learning to write a report and  try to see my "stuff" from other perspective; completely open to any advice to make my work better.
+I am learning and try to see my "stuff" from other perspectives; completely open to any advice to make my work better.
 
 See you..
