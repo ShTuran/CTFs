@@ -7,3 +7,5 @@
 `./ssh2john 'file_path_of_privkey' >   'hash.txt'`  based on that I find the passphrase (`cd /usr/share/wordlists/john`)
 
 - `steghide` and `stegseek` -> learn about them
+
+-  migrate in meterpreter -> Moves your meterpreter shell to another running process. 
