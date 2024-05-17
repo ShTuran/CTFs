@@ -48,8 +48,7 @@ User-Agent string from each log entry and counts the occurrences of each unique 
  
 filters out only the URLs containing query parameters:
 
- ![image](https://github.com/ShTuran/CTFs/assets/111232034/0abfbf61-8e29-4b97-8696-0d655f242ba4)
-
+### This picture removed due to confidential info
 
 
 # Xmlexternalentity
