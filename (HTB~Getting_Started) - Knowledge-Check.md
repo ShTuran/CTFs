@@ -12,7 +12,7 @@ Admin page was using default credentials (admin:admin)
 
 ![admin-login-page](https://github.com/user-attachments/assets/2edde83a-685d-4003-a7c6-c0e1fda76296)
 
-I got a shell with meterpreter:
+(searched the vulnerable version of website in metasploit) I got a shell with meterpreter:
 
 ![meterpreter-shell](https://github.com/user-attachments/assets/55c276c3-f390-4e1c-a0b8-2a416bdb3d38)
 
