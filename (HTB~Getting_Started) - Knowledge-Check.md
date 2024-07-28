@@ -7,5 +7,6 @@ Enumeration is the key, so nmap result:
 
 Immediately, went to website and tried to find directories with `gobuster`:
 
-![Uploading gobuster.png…]()
+![gobuster](https://github.com/user-attachments/assets/1e7b6d51-57fd-4c56-8336-943b35748a50)
+
 
